@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <script src="https://kit.fontawesome.com/f4d4a5026f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://pixelui-cl.netlify.app/component.css">
+</head>
+
+<body>
+    <div class="product-section">
+        <nav>
+            <div class="nav">
+                <div class="first-nav">
+                    <img src="/images/Pixelion (2)-PhotoRoom.png" alt="">
+                </div>
+                <div class="mid-nav flex-row">
+                    <ul class="nav-links">
+                        <a class="li-link-a" href="#">
+                            <li class="li-link">Home</li>
+                        </a>
+                        <a class="li-link-a" href="#">
+                            <li class="li-link">Shop Now</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="last-nav flex-row">
+                    <input type="text" class="input-md input-box" placeholder="Search">
+                    <ul class="nav-connect nav-links">
+                        <a href="#" target="_blank" class="nav-connect-a li-link-a">
+                            <li class="connect-link h6-text flex-col-center">
+                                <i class="fas fa-user  h5-text"></i>
+                                <p class="h6-text i-link-nav-name">User</p>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" class="nav-connect-a li-link-a ">
+                            <li class="connect-link  flex-col-center ">
+                                <i class="fas fa-heart h5-text"></i>
+                                <p class="h6-text i-link-nav-name">Wishlist</p>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" class="nav-connect-a li-link-a">
+                            <li class="connect-link flex-col-center h6-text">
+                                <i class="fas fa-shopping-cart  h5-text"></i>
+                                <p class="h6-text i-link-nav-name">Cart</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="product-main flex-row">
+            <div class="product-sidebar flex-col">
+                <div class="side-heads flex-row">
+                    <p class="h3-text wt-bold">Filters</p>
+                    <p class="doc-p">Clear All</p>
+                </div>
+                <hr class="side-hr">
+                <!------------sort-filter------------->
+                <div class="sort-filter">
+                    <p class="h4-text wt-md side-filter">SORT</p>
+
+                    <label class="radio-list">Higher to Lower Price
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="radio"></span>
+                    </label>
+                    <label class="radio-list">Lower to Higher Price
+                        <input type="radio" name="radio">
+                        <span class="radio"></span>
+                    </label>
+                </div>
+                <hr class="side-hr">
+                <!------------category-filter------------->
+                <div class="category-filter">
+                    <p class="h4-text wt-md side-filter">CATEGORIES</p>
+                    <label class="check-list">Phones
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Speakers
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Earphones
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Laptops
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Tablets
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Smart Watches
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <hr class="side-hr">
+                <!------------brand-filter------------->
+                <div class="brand-filter">
+                    <p class="h4-text wt-md side-filter">BRANDS</p>
+                    <label class="check-list">Apple
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Boat
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Samsung
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">One Plus
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">HP
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="check-list">Fasttrack
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <hr class="side-hr">
+                <!------------Stock-filter------------->
+                <div class="stock-filter">
+                    <p class="h4-text wt-md side-filter">STOCK</p>
+                    <label class="check-list">Include out of stock
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="product-container">
+<div class="product-card-container column-3-grid">
+    <div class="e-basic-card">
+        <img src="/images/phone.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="e-basic-card">
+        <img src="/images/iphoneimg3-removebg-preview.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="e-basic-card">
+        <img src="/images/iphoneimg2-removebg-preview.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="e-basic-card">
+        <img src="/images/iphoneimg2-removebg-preview.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="e-basic-card">
+        <img src="/images/phone.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="e-basic-card">
+        <img src="/images/phone.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="e-basic-card">
+        <img src="/images/iphoneimg3-removebg-preview.png" alt="" class="e-card-img">
+        <div class="card-body">
+            <h4 class="card-title">Apple iPhone 13- Blue</h4>
+            <span class="e-card-subtext">Why iPhone?
+                <br>
+                There's no phone like iPhone.
+                <br>
+                <span class="prime-color-text h4-text">₹74,900</span> <del>₹79,900</del> <span
+                    class="small-grey"> Save ₹5,000</span>
+            </span>
+            <div class="card-footer">
+                <button class="mid-btn btn-primary">Add to cart</button>
+                <div class="connect-part"><i class="far fa-heart card-icon"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+<div class="product-footer">
+  
+        <p class="foot-p">Made with <i class="fas fa-heart prime-color-text"></i> by
+            Anshika Agarwal</p>
+        <ul class=" complement-text-color nav-links flex-row">
+            <a href="https://github.com/anshikaa12" class="nav-connect-a li-link-a">
+                <li class="connect-link li-link">
+                    <i class="fab fa-github i-link-connect"></i>
+                </li>
+            </a>
+            <a href="https://twitter.com/anshikaa_12" target="_blank" class="nav-connect-a li-link-a ">
+                <li class="connect-link li-link i-link-connect">
+                    <i class="fab fa-twitter"></i>
+                </li>
+            </a>
+            <a href="https://www.linkedin.com/in/anshikaagarwal12/" target="_blank" class="nav-connect-a li-link-a">
+                <li class="connect-link li-link">
+                    <i class="fab fa-linkedin-in i-link-connect"></i>
+                </li>
+            </a>
+        </ul>
+        <p class="foot-p  flex-col-center">© 2022 PixelUI</p>
+   
+</div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
