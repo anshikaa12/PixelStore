@@ -1,0 +1,28 @@
+@import url('/css/base/base.css');
+@import url('/css/base/typography.css');
+@import url('/css/base/utilities.css');
+@import url('/css/layout/main-nav.css');
+@import url('/css/pages/promos.css');
+@import url('/css/pages/featured.css');
+@import url('/css/pages/footer.css');
+@import url('/css/layout/product-nav.css');
+@import url('/css/layout/product-footer.css');
+
+.wishlist-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.wishlist-container {
+    padding: 4rem 2rem;
+    gap: 2rem;
+}
+
+.wishlist-trash:hover {
+    font-size: 3rem;
+}
+
+.e-basic-card {
+    width: 28rem;
+}
