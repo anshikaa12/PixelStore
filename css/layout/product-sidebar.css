@@ -24,7 +24,8 @@
 .sort-filter,
 .category-filter,
 .brand-filter,
-.stock-filter {
+.stock-filter,
+.rating-filter {
     padding: 2rem;
 }
 
@@ -51,7 +52,7 @@
     user-select: none;
 }
 
-/* Hide the browser's default checkbox */
+
 .check-list input {
     position: absolute;
     opacity: 0;
@@ -60,7 +61,7 @@
     width: 0;
 }
 
-/* Create a custom checkbox */
+
 .checkmark {
     position: absolute;
     top: 0;
@@ -71,29 +72,29 @@
     background-color: var(--alt-text-color);
 }
 
-/* On mouse-over, add a grey background color */
+
 .check-list:hover input~.checkmark {
     background-color: var(--secondary-color);
 }
 
-/* When the checkbox is checked, add a blue background */
+
 .check-list input:checked~.checkmark {
     background-color: var(--primary-color);
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
+
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-/* Show the checkmark when checked */
+
 .check-list input:checked~.checkmark:after {
     display: block;
 }
 
-/* Style the checkmark/indicator */
+
 .check-list .checkmark:after {
     left: 6px;
     top: 3px;
@@ -120,14 +121,13 @@
     user-select: none;
 }
 
-/* Hide the browser's default radio button */
+
 .radio-list input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
 
-/* Create a custom radio button */
 .radio {
     position: absolute;
     top: 0;
@@ -139,29 +139,27 @@
     border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
 .radio-list:hover input~.radio {
     background-color: var(--secondary-color);
 }
 
-/* When the radio button is checked, add a blue background */
+
 .radio-list input:checked~.radio {
     background-color: var(--primary-color);
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
+
 .radio:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
 .radio-list input:checked~.radio:after {
     display: block;
 }
 
-/* Style the indicator (dot/circle) */
+
 .radio-list .radio:after {
     top: 3px;
     left: 3.5px;
